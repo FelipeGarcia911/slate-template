@@ -1,0 +1,9 @@
+defaults: &defaults
+  password: your_password
+  ignore_files:
+    - settings_data.json
+
+development:
+  <<: *defaults
+  theme_id: your_theme_id
+  store: your_store.myshopify.com
