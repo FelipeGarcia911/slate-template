@@ -1,8 +1,8 @@
 {
-  "name": "shopbrewdog",
+  "name": "slate_boilerplate",
   "version": "1.0.0",
   "private": true,
-  "author": "Shopify Inc.",
+  "author": "Felipe Garcia",
   "description": "An opinionated, Slate compatible, starting point for developing Shopify themes.",
   "keywords": [
     "shopify",
@@ -39,6 +39,7 @@
     "qrcode": "^1.3.2"
   },
   "scripts": {
+    "init": "npm install && cd src/ && sh get_theme.sh",
     "start": "slate-tools start",
     "watch": "slate-tools start --skipFirstDeploy",
     "build": "slate-tools build",
